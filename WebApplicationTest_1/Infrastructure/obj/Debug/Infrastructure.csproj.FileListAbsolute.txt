@@ -11,3 +11,16 @@ C:\Users\DZ\source\repos\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastru
 C:\Users\DZ\source\repos\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.csproj.CopyComplete
 C:\Users\DZ\source\repos\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\DZ\source\repos\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Users.mdf
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Users_log.ldf
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Domain.dll
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Domain.Interfaces.dll
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Domain.Interfaces.pdb
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.csprojAssemblyReference.cache
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.csproj.CopyComplete
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\obj\Debug\Infrastructure.pdb

@@ -11,19 +11,18 @@
 </div>
 
 <div>
-    <table>
-        <tr class="header">
-            <td><p>Email</p></td>
-            <td><p>First Name</p></td>
-            <td><p>Last Name</p></td>
-            <td></td>
+    <table border="1">
+        <tr>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
         </tr>
         @foreach (var u in Model)
         {
             <tr>
-                <td><p>@u.Email</p></td>
-                <td><p>@u.FirstName</p></td>
-                <td><p>@u.LastName</p></td>
+                <td>@u.Email</td>
+                <td>@u.FirstName</td>
+                <td>@u.LastName</td>
             </tr>
         }
     </table>

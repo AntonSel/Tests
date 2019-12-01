@@ -11,7 +11,7 @@ namespace Infrastructure
     {
         public static SqlConnection SetConnection()
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFileName=C:\Users\DZ\source\repos\WebApplicationTest_1\Infrastructure\Users.mdf;Persist Security Info=False";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFileName=C:\Users\DZ\source\Tests\WebApplicationTest_1\Infrastructure\Users.mdf;Persist Security Info=False";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
 
