@@ -1,0 +1,9 @@
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\bin\Debug\Domain.Interfaces.dll
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\bin\Debug\Domain.Interfaces.pdb
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\bin\Debug\Domain.dll
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\bin\Debug\Domain.pdb
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\obj\Debug\Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\obj\Debug\Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\obj\Debug\Domain.Interfaces.csproj.CopyComplete
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\obj\Debug\Domain.Interfaces.dll
+C:\Users\DZ\source\repos\WebApplicationTest_1\Domain.Interfaces\obj\Debug\Domain.Interfaces.pdb

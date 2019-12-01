@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Domain.Models.User>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <h1>ASP.NET MVC Test Application</h1>
+    <p>Take list of registered users from local DB and input to the Home page</p>
+</div>
+
+<div>
+    <table>
+        <tr class="header">
+            <td><p>Email</p></td>
+            <td><p>First Name</p></td>
+            <td><p>Last Name</p></td>
+            <td></td>
+        </tr>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td><p>@u.Email</p></td>
+                <td><p>@u.FirstName</p></td>
+                <td><p>@u.LastName</p></td>
+            </tr>
+        }
+    </table>
+</div>
