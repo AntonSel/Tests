@@ -9,6 +9,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplicationTest_1.Models;
+using Infrastructure;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace WebApplicationTest_1.Controllers
 {
@@ -155,6 +158,28 @@ namespace WebApplicationTest_1.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    SqlConnection connection = SqlConnect.SetConnection();
+
+                    SqlCommand sqlCommand = new SqlCommand("INSERT INTO [User] ([Email], [FirstName], [LastName]) VALUES (@Email, @FirstName, @LastName) ", connection);
+                    sqlCommand.Parameters.Add("@Email", user.Email);
+                    sqlCommand.Parameters.Add("@FirstName", "Test");
+                    sqlCommand.Parameters.Add("@LastName", "Test");
+
+                    try
+                    {
+                        sqlCommand.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.ToString());
+                    }
+                    finally
+                    {
+                        connection.Close();
+                    }
+
+
+
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
                     // Дополнительные сведения о включении подтверждения учетной записи и сброса пароля см. на странице https://go.microsoft.com/fwlink/?LinkID=320771.
